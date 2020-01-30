@@ -1,0 +1,28 @@
+2019-07-31 14:53:58,953 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2544 ms
+2019-07-31 14:54:26,981 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2067 ms
+2019-07-31 14:59:06,776 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2548 ms
+2019-07-31 14:59:32,941 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2334 ms
+2019-07-31 15:02:56,933 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2807 ms
+2019-07-31 15:03:04,283 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2343 ms
+2019-07-31 15:05:08,237 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 3354 ms
+2019-07-31 15:05:16,169 [12] ERROR Solution.CareBook.Gui.Test.Control.IDriver - OpenQA.Selenium.NoSuchWindowException: Browsing context has been discarded
+   à OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   à OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   à OpenQA.Selenium.Remote.RemoteWindow.Maximize()
+   à Solution.CareBook.Gui.Test.Control.LocalDriver.GoToUrl(String url) dans C:\Users\balla.niang\Desktop\Carebook\Solution.CareBook.Gui.Test\Solution.CareBook.Gui.Test\Control\LocalDriver.cs:ligne 192
+2019-07-31 15:06:08,065 [13] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2536 ms
+2019-07-31 15:06:16,412 [13] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2815 ms
+2019-07-31 15:08:38,861 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2418 ms
+2019-07-31 15:08:48,554 [12] ERROR Solution.CareBook.Gui.Test.Control.IDriver - OpenQA.Selenium.WebDriverException: Failed to decode response from marionette
+   à OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   à OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   à OpenQA.Selenium.Remote.RemoteWindow.Maximize()
+   à Solution.CareBook.Gui.Test.Control.LocalDriver.GoToUrl(String url) dans C:\Users\balla.niang\Desktop\Carebook\Solution.CareBook.Gui.Test\Solution.CareBook.Gui.Test\Control\LocalDriver.cs:ligne 192
+2019-08-05 11:18:51,451 [13] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 4132 ms
+2019-08-05 11:20:12,338 [14] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 3958 ms
+2019-08-05 11:34:44,956 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 4859 ms
+2019-08-05 11:41:49,003 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 4569 ms
+2019-08-05 12:06:18,766 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 4922 ms
+2019-08-06 11:43:07,721 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2375 ms
+2019-08-12 13:58:52,030 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2353 ms
+2019-08-12 14:01:59,544 [12] INFO Solution.CareBook.Gui.Test.Control.IDriver - GoToUrl : 2202 ms

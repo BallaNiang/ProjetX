@@ -1,0 +1,57 @@
+﻿{
+
+  /********************* UPC Data ***************************/
+  "UpcType0": "0062368211200",
+  "UpcType1": "0022703700000",
+  "UpcType2": "4036",
+
+   /************** Login @ Authentication.cs ***************/
+  "LoginPrompt": ".//*[contains(text(), 'Identification')]",
+  "LoginPinField": ".//*[@id='pin']",
+  "StoreScopeField": ".//*[@id='storeScope']",
+  "LoginLangField": "html/body/table/tbody/tr/td/form[2]/input",
+  "LogoutLink": "//input[@value='Log Off']",
+
+  /************** StartPicking @ OrderList.cs ***************/
+  "StartPicking": "//a[contains(text(),'Start Picking')]",
+  "NextButton": ">",
+  "PreviousButton": "<",
+  "FirstButton": ">>",
+  "LastButton": ">>",
+  "BackButton": "Back",
+
+  /************** Scan @ PickingList.cs ***************/
+  "ScanSkuField": "//input[@name='scannedSku']",
+  "ScanButton": "//input[@type='image']",
+  "ScanConfirmButton": "//input[@value='Confirm']",
+  "ScanContinueButton": "//input[@value='Continue']",
+
+  /************** @ OrderDetail.cs ***************/
+  "OrderDetailPage": "html/body/div[3]/table[3]/tbody/tr[1]/th[2]/a",
+  "OrderToAddOnPickingPage": "html/body/div[3]/table[4]/tbody/tr[1]/th[2]/a",
+  "OrderDescSection": "html/body/div[3]/table[3]/tbody/tr[2]/td",
+  "AddToPicklistButton": "//a[contains(text(),'Add to Picklist')]",
+  "AddProductButton": "//a[contains(text(),'Add Products')]",
+  "OnHoldPickingButton": "//a[contains(text(),'On Hold')]",
+  "CancelPickingButton": "//a[contains(text(),'Cancel Picking')]",
+  "ResumePickingButton": "//a[contains(text(),'Resume')]",
+
+  /************** Add Product @ OrderDetail.cs***************/
+  "CaptureFormatList": ".//*[@id='UomCaptureFormatOverride']",
+  "CaptureUnitField": ".//*[@id='captureUnitOverrideTextBox']",
+  "CaptureField": ".//*[@id='captureTextBox']",
+
+  /************** @ PickingDetail.cs ***************/
+  "ProductType0Page": "html/body/div[3]/table[4]/tbody/tr[1]/th[2]/a",
+  "ProductType1Page": "html/body/div[3]/table[9]/tbody/tr[1]/th[2]/a",
+  "ProductType2Page": "html/body/div[3]/table[1]/tbody/tr[1]/th[2]/a",
+  "CompletedTap": "html/body/div[2]/table/tbody/tr/td[4]/a",
+  "CompletedItem": "html/body/div[3]/table/tbody/tr[1]/th/a",
+  "ProductNotAvaiButton": "//input[@value='Product not available']",
+  "ReactivateToPickButton": "//input[@value='Reactivate to pick-list']",
+  "DropScannedItemButton": "html/body/div[2]/div[2]/table[2]/tbody/tr/td[2]/form/input[3]",
+  "SubstituteButton": "//input[@value='Substitute']",
+  "PickedNotScanButton": "//input[@value='Picked not scanned']",
+  "FixAisleButton": "//input[@value='Fix Aisle']"
+
+}
